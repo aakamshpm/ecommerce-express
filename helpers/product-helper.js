@@ -1,5 +1,5 @@
 var db = require("../config/connection");
-var collection = require("../config/constants");
+var constants = require("../config/constants");
 module.exports = {
   addProduct: (product, callback) => {
     db.get()
